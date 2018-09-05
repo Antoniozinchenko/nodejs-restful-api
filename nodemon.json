@@ -1,0 +1,7 @@
+{
+    "env": {
+        "MONGO_DB_USER": "Admin",
+        "MONGO_DB_PASSWORD": "Qwerty1",
+        "JWT_KEY": "super_secret"
+    }
+}

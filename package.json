@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-restful-api",
+  "version": "1.0.0",
+  "description": "Nodejs Restful API with authentication",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "api"
+  ],
+  "author": "Antoniozinchenko",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.0",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.2.12",
+    "mongoose-unique-validator": "^2.0.1"
+  },
+  "devDependencies": {
+    "morgan": "^1.9.0",
+    "nodemon": "^1.18.4"
+  }
+}
